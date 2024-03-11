@@ -1,7 +1,5 @@
 import argparse
 
-# ../test_source/tdt_all/tdt_all.conllu
-
 parser = argparse.ArgumentParser()
 parser.add_argument('input_file')
 parser.add_argument('output_file')
