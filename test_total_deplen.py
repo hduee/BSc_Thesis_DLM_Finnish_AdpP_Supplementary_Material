@@ -49,31 +49,3 @@ print('total dep len = '+str(total_len))
 print('number of sentences = '+str(num_sen))
 print('avg dependency length of a sentence = '+str(avg))
 print('length of avg dependency = '+str(avg_for_words/num_sen))
-
-
-
-###
-
-# problem:
-# 2	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	_
-#bei Satz:
-#Myöhemmin sitten se näyttö tai ehkä jopa jo nyt, sillä saatan [...]
-# also _ durch 0 ersetzen
-
-# auch:
-#3.1	lisää	lisätä	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	_	_	1:conj	_
-#in
-# Lisä mausteet ja halutessasi hieman...
-# der Satz ist generell falsch annotiert???
-
-#auch falsch annotiert?:
-# Mörinä vain kuuluu suljetun oven lävitse tai joskus karjahdus...
-
-#auch falsch:
-#Punanen kenttä tonne päätyyn. tulee
-
-#auch falsch:
-# "eläinlääkintäalaa koskevalla lainsäädännöllä": direktiivin 89/662/ETY...
-
-#auch falsch:
-# "todistuksia myöntävillä viranomaisilla": virkaeläinlääkäriä tai, mikäli...
