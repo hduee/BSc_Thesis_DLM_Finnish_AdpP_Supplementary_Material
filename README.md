@@ -1,6 +1,6 @@
 # BSc_Thesis_DLM_Finnish_AdpP_Supplementary_Material
 
-This repository contains material supplementary to my unpublished bachelor's thesis "Potential Dependency Length Minimization Effects in Finnish Adpositional Phrases", handed in on March 11th, 2024 at Universität des Saarlandes.
+This repository contains material supplementary to my unpublished bachelor's thesis "Potential Dependency Length Minimization Effects in Finnish Adpositional Phrases", handed in on March 11th, 2024 at Universität des Saarlandes, supervised by Jun.-Prof. Dr. Annemarie Verkerk and Dr. Luigi Talamo.
 
 The files do the following:
 
