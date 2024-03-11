@@ -10,7 +10,7 @@ calculate_total_dependency_length.py reads a conllu file and prints the total de
 
 extract_all_sentences_containing_adp_from_file.py reads a conllu file and creates a new conllu file that contains only those sentences that contain adpositions.
 
-t_test.py performs a paired difference t-test given two files and prints the t value. I used this on the tdt corpus (with adpositions turned into governors) and the counterfactual corpus (where all postpositions are turned into prepositions) to test whether the change in dependency length is significant. Important: I extracted only those sentences containing adpositions beforehand.
+t_test.py performs a paired difference t-test given two files and prints the t value. I used this on the TDT corpus (with adpositions turned into governors) and the counterfactual corpus (where all postpositions are turned into prepositions) to test whether the change in dependency length is significant. Important: I extracted only those sentences containing adpositions beforehand.
 
 turn_adp_into_governor.py takes a conllu file and turns all adpositions into governors.
 
