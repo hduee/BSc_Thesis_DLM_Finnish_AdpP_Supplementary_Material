@@ -126,15 +126,3 @@ if __name__ == '__main__':
 
                             new_head_detail = sen[i]['number']+head_detail_without_numbers
                             sen[head]['rel_detail'] = new_head_detail
-
-
-# aus tdt_all entfernt, da 5 und 6 nicht eingelesen werden:
-
-# sent_id = t023.1
-# text = Espanjan lainakorko lähellä "pelastusrajaa"
-#1	Espanjan	Espanja	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	2:nmod:poss	_
-#2	lainakorko	laina#korko	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj:cop	_
-#3	lähellä	lähellä	ADP	Adp	AdpType=Prep	5	case	5:case	_
-#4	"	"	PUNCT	Punct	_	5	punct	5:punct	SpaceAfter=No
-#5	pelastusrajaa	pelastus#raja	NOUN	N	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
-#6	"	"	PUNCT	Punct	_	5	punct	5:punct	_
