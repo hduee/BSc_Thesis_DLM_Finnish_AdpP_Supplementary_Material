@@ -99,12 +99,6 @@ sd = math.sqrt(variance)
 
 t = (avg_of_pairwise_dif) / (sd / math.sqrt(num_sen_one))
 
-#print('total dep len = '+str(total_len))
-#print('number of sentences = '+str(num_sen))
-#print('avg dependency length of a sentence = '+str(avg))
-
-#print(variance)
-
 print('length of avg dependency = '+str(avg_for_words_one/num_sen_one)+'\t'+str(avg_for_words_two/num_sen_two))
 print(num_sen_one)
 print(num_sen_two)
