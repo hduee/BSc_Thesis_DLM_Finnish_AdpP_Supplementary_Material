@@ -23,6 +23,9 @@ ud-wordorder.py was not written by me, but provided by one of my supervisors, Dr
 The "stats" folder contains information on the distance between ADP tokens with a case relation and the word they have a case relation with for all ADPs in a given conllu file:
 
 report-all_to_prep.csv uses the file as input where all postpositions are turned into prepositions.
+
 report-gov.csv uses the file as input where adpositions are turned into governors.
+
 report-gov_and_prep.csv uses the file as input where all postpositions are turned into prepositions and adpositions are turned into governors.
+
 report-tdt_all.csv uses the original TDT data as input.
